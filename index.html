@@ -1,19 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Aaron Aguilar's Portfolio</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Boxify: Free HTML5/CSS3 Template by Peter Finlan</title>
+		<meta name="description" content="A free HTML5/CSS3 template made exclusively for Codrops by Peter Finlan" />
+		<meta name="keywords" content="html5 template, css3, one page, animations, agency, portfolio, web design" />
+		<meta name="author" content="Peter Finlan" />
+		<!-- Bootstrap -->
 		<script src="js/modernizr.custom.js"></script>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/jquery.fancybox.css" rel="stylesheet">
 		<link href="css/flickity.css" rel="stylesheet" >
+		<link href="css/animate.css" rel="stylesheet">
 		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-		<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Raleway:400,700,500|Lato' rel='stylesheet' type='text/css'>
+		<link href="css/styles.css" rel="stylesheet">
+		<link href="css/queries.css" rel="stylesheet">
 		<!-- Facebook and Twitter integration -->
 		<meta property="og:title" content=""/>
 		<meta property="og:image" content=""/>
@@ -30,138 +38,226 @@
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
-</head>
-<body> 
-    <!--[if lt IE 7]>
+	</head>
+	<body>
+		<!--[if lt IE 7]>
 		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
-    <!-- open/close -->
+		<!-- open/close -->
 		<header>
 			<section class="hero">
+				<div class="texture-overlay"></div>
 				<div class="container">
 					<div class="row nav-wrapper">
 						<div class="col-md-6 col-sm-6 col-xs-6 text-left">
-							<a href="#"><img src="" alt=""></a>
+							
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-6 text-right navicon">
 							<p>MENU</p><a id="trigger-overlay" class="nav_slide_button nav-toggle" href="#"><span></span></a>
 						</div>
 					</div>
-                </div>
-    <div class="container-fluid">
-        <img src="img/pink-01.png" class="pink1 img-responsive animated fadeIn">
-        <img src="img/yellow-01.png" class="yellow2 img-responsive animated fadeIn">
-        <img src="img/cyan-01.png" class="cyan3 img-responsive animated fadeIn">
-        <img src="img/AA-01.png" class="aa img-responsive animated zoomIn">
-    </div> <!-- hero image -->
-    <!-- work in progress
-        <div class="col-md-6 col-md-offset-2">
-            <img src="img/aa-white.png" class="aa img-responsive">
-            <img src="img/aa-cyan.png" class="pink1 img-responsive animated pulse">
-            <img src="img/aa-red.png" class="cyan3 img-responsive animated pulse">
-        </div>
-    -->
+					<div class="row hero-content">
+						<div class="col-md-12">
+							<img src="img2/aaronaguilar-md.png" class="img-responsive center-block" width="500">
+						</div>
+					</div>
+				</div>
 			</section>
 		</header>
-    <div class="mid-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2 quote">
-                    <h3 class="text-uppercase">“ Everything interests me but nothing holds me ”</h3>
-                    <footer><p>— Fernando Pessoa</p></footer>
-                </div>
-            </div>
-        </div>
-    </div> <!-- Favorite quote section -->
-    <div id="about">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="http://i.imgur.com/60uJUIu.jpg" alt="image" class="img-responsive">
-                </div>
-                <div class="col-md-6 text-center">
-                    <h2>About Me</h2>
-                    <p>lorem and some other shit, but do you see that cute corgi.</p>
-                </div>
-            </div>
-            <div id="row">
-                <div class="col-md-6 design text-center">
-                    <h2>UI/UX Design</h2>
-                    <p>Ensuring user experience in designing the overall feel of the product.</p>
-                </div>
-                <div class="col-md-6 code text-center">
-                    <h2>Web Development</h2>
-                    <p>Translating mockups to interactive experience using code.</p>
-                </div>
-            </div>
-        </div>
-    </div> <!-- About me -->
-    <div class="mid-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <h2>Simple, but fun</h2>
-                </div>
-            </div>
-        </div>
-    </div> <!-- Simple but fun section -->
+		<section class="showcase" id="about">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<h1>❝Everything interests me, but nothing holds me. <br>
+— Fernando Pessoa</h1>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="features-intro">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6 nopadding features-intro-img">
+						<div class="features-bg">
+							<div class="texture-overlay"></div>
+							<div class="features-img wp1">
+								<img src="img2/new-logo.png" alt="HTML5 Logo">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="features-slider">
+                            <h1>About Me</h1>
+                            <p>I am a Graphic and Web Designer in Fresno, California. I am new to professional Graphic Design but have been enthusiastic about design since 2010 while attending Center for Advanced Research and Technology (CART) . I furthered my education in multimedia at DeVry University straight after high school and graduate in July 2015! While there, I worked with non-profits and in projects for businesses around California.</p>
+
+<p>During my free time I like to paint, play video games, and play with my nine year old terrier buddy.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="features-list" id="features">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+
+						<div class="col-md-4 feature-1 wp2">
+							<div class="feature-icon">
+								<i class="fa fa-paint-brush"></i>
+							</div>
+							<div class="feature-content">
+								<h1>Graphic Design</h1>
+								<p>Creating brand identity with logos or simple advertisement</p>
+							</div>
+						</div>
+						<div class="col-md-4 feature-2 wp2 delay-05s">
+							<div class="feature-icon">
+								<i class="fa fa-desktop "></i>
+							</div>
+							<div class="feature-content">
+								<h1>UX/UI Design</h1>
+                                <p>Ensuring user experience in designing the overall feel of the product.</p>
+							</div>
+						</div>
+						<div class="col-md-4 feature-3 wp2 delay-1s">
+							<div class="feature-icon">
+								<i class="fa fa-html5"></i>
+							</div>
+							<div class="feature-content">
+								<h1>UI Developer</h1>
+                                <p>Translating mockups to interactive experience using code.</p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
 		<section class="screenshots" id="screenshots">
 			<div class="container-fluid">
 				<div class="row">
 					<ul class="grid">
 						<li>
 							<figure>
-								<img src="img/thumb_owa-01.jpg" alt="Screenshot 01">
+								<img src="img2/thumb-screamers.jpg" alt="Screenshot 01">
 								<figcaption>
 								<div class="caption-content">
-									<a href="img/owa-logo.png" class="single_image">
+									<a href="#" data-toggle="modal" data-target="#myModal">
 										<i class="fa fa-search"></i><br>
-										<p>One Woman Adventure</p>
-                                        <small>Graphic &amp; Web Design</small>
+										<p>Screamers - Web Design</p>
 									</a>
 								</div>
+                              <!-- Modal -->
+                              <div class="modal fade" id="myModal" role="dialog">
+                                <div class="modal-dialog modal-lg">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                      <h4 class="modal-title">Screamers The Movie</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                      <p>I was in charge of creating a mockup for the upcoming movie Screamers. The mockup can be seen <a href="img2/full-site.gif" target="_blank">here</a></p>.
+                                      <p>Click <a href="http://editllc.github.io/client-screamersmovie/" target="_blank">here</a> for the live site of Screamers!</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
 								</figcaption>
 							</figure>
 						</li>
 						<li>
 							<figure>
-								<img src="img/thumb_nation-01.jpg" alt="Screenshot 01">
+								<img src="img2/thumb-hpc.jpg" alt="Screenshot 01">
 								<figcaption>
 								<div class="caption-content">
-									<a href="http://i.imgur.com/60uJUIu.jpg" class="single_image">
+									<a href="#" data-toggle="modal" data-target="#myModal">
 										<i class="fa fa-search"></i><br>
-										<p>Nation Adjusting</p>
-                                        <small>Graphic Design</small>
+										<p>House Psychiatric Clinic - Web Design</p>
 									</a>
 								</div>
+                                                                  <!-- Modal -->
+                              <div class="modal fade" id="myModal" role="dialog">
+                                <div class="modal-dialog modal-lg">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                      <h4 class="modal-title">House Psychiatric Clinic</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                      <p>I was in charge of creating a mockup for the House Psychiatric Clinic's website redesign. The mockup can be seen <a href="img2/hpc-home.jpg" target="_blank">here</a>. I was also in charge of developing the website.</p>
+                                      <p>Click <a href="http://editllc.github.io/client-house-psychiatric/" target="_blank">here</a> for the live site.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
 								</figcaption>
 							</figure>
 						</li>
 						<li>
 							<figure>
-								<img src="img/thumb_roberto-01.jpg" alt="Screenshot 01">
+								<img src="img2/thumb-knot.jpg" alt="Screenshot 01">
 								<figcaption>
 								<div class="caption-content">
-									<a href="img/large/03.jpg" class="single_image">
+									<a href="#" data-toggle="modal" data-target="#myModal">
 										<i class="fa fa-search"></i><br>
-										<p>Roberto Lopez</p>
-                                        <small>Graphic Design</small>
+										<p>Knot Away Therapy - Web Development</p>
 									</a>
 								</div>
+                                                                                                  <!-- Modal -->
+                              <div class="modal fade" id="myModal" role="dialog">
+                                <div class="modal-dialog modal-lg">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                      <h4 class="modal-title">Knot Away Therapy</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>I was in charge of redesigning and developing the website for Knot Away Therapy.</p>
+                                      <p>Click <a href="http://knotawaytherapy.com/" target="_blank">here</a> for the live site.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
 								</figcaption>
 							</figure>
 						</li>
 						<li>
 							<figure>
-								<img src="img/thumb_hpc-01.jpg" alt="Screenshot 01">
+								<img src="img2/thumb-owa.jpg" alt="Screenshot 01">
 								<figcaption>
 								<div class="caption-content">
-									<a href="http://i.imgur.com/60uJUIu.jpg" class="single_image">
+									<a href="#" data-toggle="modal" data-target="#myModal">
 										<i class="fa fa-search"></i><br>
-										<p>House Psychiatric Clinic</p>
-                                        <small>Web Design</small>
+										<p>One Woman Adventure - Web Design</p>
 									</a>
 								</div>
+                                                                                                                                  <!-- Modal -->
+                              <div class="modal fade" id="myModal" role="dialog">
+                                <div class="modal-dialog modal-lg">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                      <h4 class="modal-title">One Woman Adventure</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>I was in charge of redesigning and help develop the site for One Woman Adventure. Click <a href="img2/owa-home.jpg" target="_blank">here</a> to see the mockup</p>
+                                      <p>Click <a href="http://onewomanadventure.com/" target="_blank">here</a> for the live site.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
 								</figcaption>
 							</figure>
 						</li>
@@ -171,13 +267,12 @@
 					<ul class="grid">
 						<li>
 							<figure>
-								<img src="img/thumb_jcf.jpg" alt="Screenshot 01">
+								<img src="img2/thumbs-woodcraft.jpg" alt="Screenshot 01">
 								<figcaption>
 								<div class="caption-content">
-									<a href="img/large/05.jpg" class="single_image">
+									<a href="img2/woodcraft-presentation.pdf" class="single_image" target="_blank">
 										<i class="fa fa-search"></i><br>
-										<p>John C. Fremont</p>
-                                        <small>Graphic Design</small>
+										<p>The Woodcraft Logo - Graphic Design</p>
 									</a>
 								</div>
 								</figcaption>
@@ -185,13 +280,12 @@
 						</li>
 						<li>
 							<figure>
-								<img src="img/thumb_fm.jpg" alt="Screenshot 01">
+								<img src="img2/thumbs-jcf.jpg" alt="Screenshot 01">
 								<figcaption>
 								<div class="caption-content">
-									<a href="img/large/06.jpg" class="single_image">
+									<a href="img2/jcf.jpg" class="single_image">
 										<i class="fa fa-search"></i><br>
-										<p>Fresno M.E.A.L.S</p>
-                                        <small>Graphic Design</small>
+										<p>John C Fremont Logo - Graphic Design</p>
 									</a>
 								</div>
 								</figcaption>
@@ -199,13 +293,12 @@
 						</li>
 						<li>
 							<figure>
-								<img src="img/thumb_contact.jpg" alt="Screenshot 01">
+								<img src="img2/thumbs-disability.jpg" alt="Screenshot 01">
 								<figcaption>
 								<div class="caption-content">
-									<a href="img/large/07.jpg" class="single_image">
+									<a href="img2/disability.jpg" class="single_image">
 										<i class="fa fa-search"></i><br>
-										<p>Contact Poster</p>
-                                        <small>Graphic Design - Photo Manipulation</small>
+										<p>Web Accessibility Infographic - Graphic Design</p>
 									</a>
 								</div>
 								</figcaption>
@@ -213,13 +306,12 @@
 						</li>
 						<li>
 							<figure>
-								<img src="img/thumb_mojo.jpg" alt="Screenshot 01">
+								<img src="img2/thumb-contact.jpg" alt="Screenshot 01">
 								<figcaption>
 								<div class="caption-content">
-									<a href="img/large/08.jpg" class="single_image">
+									<a href="img2/contact.jpg" class="single_image">
 										<i class="fa fa-search"></i><br>
-										<p>Photo Mojo Photography</p>
-                                        <small>Graphic &amp; Web Design</small>
+										<p>Contact Poster - Graphic Design</p>
 									</a>
 								</div>
 								</figcaption>
@@ -228,60 +320,27 @@
 					</ul>
 				</div>
 			</div>
-		</section>    
-    <div id="contact">
-        <div class="container">
-            <div class="row">
-              <form class="t-style" method="POST" name="contactform" action="contact-form-handler.php"> 
-                <h2>Contact me for a chance</h2>
-            <div class="col-md-3 col-md-offset-2">
-                <div class="form-group">
-                    <label for="inputEmail" class="control-label">Email</label>
-                    <input name="email" type="email" class="form-control" id="inputEmail" placeholder="Email">
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="form-group">  
-                    <label for="inputName" class="control-label">Subject</label>
-                    <input name="subject" type="text" class="form-control" id="inputSub" placeholder="Subject">
-                </div>
-            </div>
-            <div class="col-md-7 col-md-offset-2">
-                <div class="form-group">
-                    <label for="inputMsg" class="control-label">Message</label>
-                    <textarea name="message" class="form-control" rows="3"></textarea>
-                </div>
-            </div>
-         <!-- recaptcha -->
-                <div class="g-recaptcha" data-sitekey="6LcWEwgTAAAAADdMT70hGf_nZ0Ot2pvuZANtTZF3"></div>
-                <div class="form-group col-md-7 col-md-offset-2">
-                 <button type="submit" class="btn btn-primary">Send</button>
-                </div>
-              </form> <!-- form -->
-            </div>
-        </div>
-    </div> <!-- Contact -->
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2 text-center">
-                    <p>&copy; 2015 Aaron Aguilar. All rights reserved.</p>
-                </div>
-                <div class="col-md-2">
-                    <p>social network links</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    		<div class="overlay overlay-boxify">
+		</section>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5">
+						<h1 class="footer-logo">
+						<img src="img2/new-logo.png" alt="Footer Logo Blue">
+						</h1>
+                        <p>© Aaron H. Aguilar 2015 -  - Designed &amp; Developed by Aaron Aguilar</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="overlay overlay-boxify">
 			<nav>
 				<ul>
 					<li><a href="#about"><i class="fa fa-heart"></i>About</a></li>
-					<li><a href="#features"><i class="fa fa-flash"></i>Features</a></li>
+					<li><a href="#features"><i class="fa fa-flash"></i>Work</a></li>
 				</ul>
 				<ul>
-					<li><a href="#screenshots"><i class="fa fa-desktop"></i>Screenshots</a></li>
-					<li><a href="#download"><i class="fa fa-download"></i>Download</a></li>
+					<li><a href="#download"><i class="fa fa-download"></i>Contact</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -295,5 +354,14 @@
 		<script src="js/waypoints.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/min/scripts-min.js"></script>
-</body>
+		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+		<script>
+		(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+		function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+		e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+		e.src='//www.google-analytics.com/analytics.js';
+		r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+		ga('create','UA-XXXXX-X');ga('send','pageview');
+		</script>
+	</body>
 </html>
