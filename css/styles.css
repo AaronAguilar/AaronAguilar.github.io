@@ -75,6 +75,12 @@ h1 {
     font-weight: 700;
 }
 
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight 700;
+    color: #c7cacc;
+}
+
 /*
 * Addresses `font-family` inconsistency between `textarea` and other form
 * elements.
@@ -808,13 +814,17 @@ Showcase
     rgba(37, 43, 46, 0.90)
     ), url('../img2/new-background.jpg') no-repeat bottom center fixed;
     background-size: cover;
-    padding: 20px 0;
+    padding: 35px 0 20px 0;
 }
 .showcase h1 {
     margin: 0 0 20px 0;
     color: #fff;
     font-weight: 400;
     font-size: 22px;
+}
+.showcase h2 {
+    font-weight: 700;
+    margin-top: -40px;
 }
 .showcase p {
     margin-bottom: 25px;
@@ -961,11 +971,20 @@ Screenshots
 /* ==========================================================================
 Footer
 ========================================================================== */
+.fa-github {
+    font-size: 36px;
+}
+.fa-behance {
+    font-size: 36px;
+}
 footer {
-    padding: 100px 0
+    background-color: #252B2E;
+}
+footer i {
+    font-size: 26px;
 }
 footer p {
-    color: #c7cacc;
+    color: #F26167;
     font-size: 12px;
 }
 footer ul {
